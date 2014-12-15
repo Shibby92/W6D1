@@ -45,7 +45,7 @@ public class ToyStore {
 		out += "Name: " + name;
 		out += "\nToy list: \n";
 		for (int i = 0; i < numToys; i++) {
-			out += "\t" + inventory[i].toString();
+			out += inventory[i].toString();
 		}
 		out += "\n";
 		return out;
